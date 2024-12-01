@@ -13,7 +13,7 @@ export default function Home() {
       <section className="py-20 px-10 bg-gray-800">
         <h2 className="text-4xl font-bold mb-6 text-center">About Me</h2>
         <p className="text-lg max-w-3xl mx-auto text-center">
-          I'm a passionate developer who loves crafting innovative solutions for the web.
+          I m a passionate developer who loves crafting innovative solutions for the web.
         </p>
       </section>
 
@@ -24,7 +24,7 @@ export default function Home() {
           {[...Array(6)].map((_, i) => (
             <div key={i} className="p-6 bg-gray-800 rounded-lg shadow-lg">
               <h3 className="text-xl font-bold mb-4">Project {i + 1}</h3>
-              <p>Details about this project go here. It's innovative and exciting!</p>
+              <p>Details about this project go here. Its innovative and exciting!</p>
             </div>
           ))}
         </div>
